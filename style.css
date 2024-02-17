@@ -88,6 +88,10 @@ button {
 }
 
 @media (max-width: 480px) {
+  h1 {
+    font-size: 35px !important;
+  }
+
   .contenedor {
     width: 90%;
     padding: 50px 30px;
