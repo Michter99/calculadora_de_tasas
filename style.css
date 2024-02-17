@@ -20,12 +20,12 @@ body {
   align-items: center;
 }
 
-.container {
+.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40% !important;
-  padding: 50px !important;
+  width: 40%;
+  padding: 50px;
   background-color: #ffffff;
   box-sizing: border-box;
 }
@@ -66,7 +66,7 @@ button {
 }
 
 #result {
-  margin-top: 30px !important;
+  margin-top: 30px;
   text-align: center;
   margin-top: 20px;
 }
@@ -77,7 +77,7 @@ button {
 }
 
 @media (max-width: 768px) {
-  .container {
+  .contenedor {
     width: 90%;
     padding: 50px 30px;
   }
@@ -88,7 +88,7 @@ button {
 }
 
 @media (max-width: 480px) {
-  .container {
+  .contenedor {
     width: 90%;
     padding: 50px 30px;
   }
